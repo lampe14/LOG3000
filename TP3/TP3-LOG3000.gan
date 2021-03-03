@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-02-20" view-index="0" gantt-divider-location="632" resource-divider-location="300" version="3.0.3002" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-02-15" view-index="0" gantt-divider-location="623" resource-divider-location="300" version="3.0.3002" locale="en_CA">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="315" order="0"/>
-        <field id="tpd4" name="Begin date" width="146" order="1"/>
-        <field id="tpd5" name="End date" width="167" order="2"/>
+        <field id="tpd3" name="Name" width="383" order="0"/>
+        <field id="tpd4" name="Begin date" width="117" order="1"/>
+        <field id="tpd5" name="End date" width="104" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -38,12 +38,50 @@
             <task id="10" name="Rassembler les informations pertinentes" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true"/>
             <task id="8" name="Établir une liste d'exigences" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="16" name="Réaliser le premier prototype" color="#000000" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+        <task id="16" name="Réaliser le prototype" color="#000000" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
             <task id="17" name="Établir les requis du prototype" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
             <task id="19" name="Concevoir le prototype" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
             <task id="25" name="Évaluer le prototype" meeting="false" start="2021-02-22" duration="1" complete="0" expand="true"/>
+            <task id="29" name="Mettre à jour le prototype" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="26" name="task_26" meeting="false" start="2021-02-22" duration="1" complete="0" expand="true"/>
+        <task id="30" name="Préciser la liste d'exigence" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+        <task id="32" name="Prioriser les exigences pour le sprint" meeting="false" start="2021-02-22" duration="1" complete="0" expand="true">
+            <task id="37" name="Créer les tâches associées aux exigences" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="33" name="Implémenter les exigences" color="#000000" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+            <task id="35" name="Analyser les exigences" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Réfléchir sur l'implémentation des exigences" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="46" name="Programmer les exigences" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="47" name="task_47" meeting="false" start="2021-02-22" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="48" name="Implémenter les tests unitaires" meeting="false" start="2021-02-22" duration="1" complete="0" expand="true">
+            <task id="49" name="Programmer les tests unitaires" color="#8cb6ce" meeting="false" start="2021-02-22" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="53" name="Exécuter et analyser le résultat des tests unitaires" meeting="false" start="2021-02-22" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="54" name="Refactoriser le code" meeting="false" start="2021-02-17" duration="1" complete="0" expand="true">
+            <task id="55" name="Analyser le code à refactoriser" color="#8cb6ce" meeting="false" start="2021-02-17" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Modifier le code" meeting="false" start="2021-02-17" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="58" name="Extraire l'architecture" color="#8cb6ce" meeting="false" start="2021-02-17" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
+            <task id="62" name="Analyser la structure globale" color="#8cb6ce" meeting="false" start="2021-02-17" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+            <task id="64" name="Concevoir la vue de cas d'utilisation" color="#8cb6ce" meeting="false" start="2021-02-17" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+            <task id="66" name="Concevoir la vue logique" color="#8cb6ce" meeting="false" start="2021-02-17" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+            <task id="70" name="Concevoir la vue des processus" color="#8cb6ce" meeting="false" start="2021-02-17" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+            <task id="72" name="Concevoir la vue de déploiement" meeting="false" start="2021-02-17" duration="1" complete="0" expand="true"/>
+            <task id="73" name="Rédiger les contraintes architecturales" meeting="false" start="2021-02-17" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="74" name="Intégrer le code" color="#8cb6ce" meeting="false" start="2021-02-15" duration="3" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
+            <task id="77" name="Intégrer par sous-systèmes" color="#8cb6ce" meeting="false" start="2021-02-17" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+            <task id="81" name="Produire des sous-systèmes fonctionnels" meeting="false" start="2021-02-15" duration="1" complete="0" expand="true"/>
+            <task id="82" name="Ajuster le système" color="#8cb6ce" meeting="false" start="2021-02-15" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="86" name="Planifier les tests" meeting="false" start="2021-02-15" duration="1" complete="0" expand="true">
+            <task id="87" name="Évaluer les requis des tests" color="#8cb6ce" meeting="false" start="2021-02-15" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+            <task id="89" name="Développer une stratégie de test" meeting="false" start="2021-02-15" duration="1" complete="0" expand="true"/>
+            <task id="90" name="Organiser le déroulement des tests" meeting="false" start="2021-02-15" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="91" name="Rédiger les cas de tests" color="#8cb6ce" meeting="false" start="2021-02-15" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+        <task id="92" name="Rédiger les critères d'évaluation" color="#8cb6ce" meeting="false" start="2021-02-15" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
