@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-03-17" view-index="0" gantt-divider-location="490" resource-divider-location="300" version="3.0.3002" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-02-22" view-index="0" gantt-divider-location="490" resource-divider-location="300" version="3.0.3002" locale="en_CA">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="Name" width="284" order="0"/>
-        <field id="tpd4" name="Begin date" width="98" order="1"/>
-        <field id="tpd5" name="End date" width="89" order="2"/>
+        <field id="tpd3" name="Name" width="289" order="0"/>
+        <field id="tpd4" name="Begin date" width="103" order="1"/>
+        <field id="tpd5" name="End date" width="94" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -33,136 +33,131 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Échanger des idées" color="#8cb6ce" meeting="false" start="2021-03-04" duration="2" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true">
-            <task id="7" name="Discuter des exigences" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true">
-                <depend id="8" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="10" name="Rassembler les informations pertinentes" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true">
-                <depend id="8" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="8" name="Établir une liste d'exigences" color="#8cb6ce" meeting="false" start="2021-03-05" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Échanger des idées" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="false">
+            <task id="7" name="Discuter des exigences" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true"/>
+            <task id="10" name="Rassembler les informations pertinentes" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true"/>
+            <task id="8" name="Établir une liste d'exigences" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="16" name="Réaliser le prototype" color="#000000" meeting="false" start="2021-03-08" duration="5" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
-            <task id="17" name="Établir les requis du prototype" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+        <task id="16" name="Réaliser le prototype" color="#000000" meeting="false" start="2021-03-05" duration="4" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="false">
+            <task id="17" name="Établir les requis du prototype" color="#8cb6ce" meeting="false" start="2021-03-05" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
                 <depend id="19" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="19" name="Concevoir le prototype" color="#8cb6ce" meeting="false" start="2021-03-09" duration="2" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Concevoir le prototype" color="#8cb6ce" meeting="false" start="2021-03-08" duration="2" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
                 <depend id="25" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="25" name="Évaluer le prototype" color="#8cb6ce" meeting="false" start="2021-03-11" duration="1" complete="0" thirdDate="2021-03-11" thirdDate-constraint="0" expand="true">
-                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            <task id="25" name="Évaluer et corriger le prototype" color="#8cb6ce" meeting="false" start="2021-03-10" duration="1" complete="0" thirdDate="2021-03-11" thirdDate-constraint="0" expand="true">
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="29" name="Mettre à jour le prototype" color="#8cb6ce" meeting="false" start="2021-03-12" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="30" name="Préciser la liste d'exigence" color="#8cb6ce" meeting="false" start="2021-03-12" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+        <task id="30" name="Préciser la liste d'exigence" color="#8cb6ce" meeting="false" start="2021-03-11" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
             <depend id="37" type="2" difference="0" hardness="Strong"/>
             <depend id="87" type="2" difference="0" hardness="Strong"/>
             <depend id="123" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="32" name="Prioriser les exigences pour le sprint" meeting="false" start="2021-03-15" duration="1" complete="0" expand="false">
-            <task id="123" name="Analyser le niveau d'importance des exigences" meeting="false" start="2021-03-15" duration="1" complete="0" expand="true"/>
-            <task id="37" name="Créer les tâches associées aux exigences" color="#8cb6ce" meeting="false" start="2021-03-15" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
-                <depend id="35" type="2" difference="0" hardness="Strong"/>
-                <depend id="36" type="2" difference="0" hardness="Strong"/>
+        <task id="141" name="Sprint 1" meeting="false" start="2021-03-12" duration="27" complete="0" expand="true">
+            <task id="32" name="Prioriser les exigences pour le sprint" meeting="false" start="2021-03-12" duration="1" complete="0" expand="false">
+                <task id="123" name="Analyser le niveau d'importance des exigences" meeting="false" start="2021-03-12" duration="1" complete="0" expand="true"/>
+                <task id="37" name="Créer les tâches associées aux exigences" color="#8cb6ce" meeting="false" start="2021-03-12" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                    <depend id="36" type="2" difference="0" hardness="Strong"/>
+                </task>
             </task>
+            <task id="33" name="Implémenter les exigences" color="#000000" meeting="false" start="2021-03-15" duration="8" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="false">
+                <task id="35" name="Analyser les exigences" color="#8cb6ce" meeting="false" start="2021-03-15" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+                <task id="36" name="Réfléchir sur l'implémentation des exigences" color="#8cb6ce" meeting="false" start="2021-03-15" duration="2" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+                <task id="46" name="Programmer les classes nécessaires" color="#8cb6ce" meeting="false" start="2021-03-17" duration="3" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+                    <depend id="125" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="47" name="Programmer les liens entre les classes" color="#8cb6ce" meeting="false" start="2021-03-17" duration="3" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+                    <depend id="125" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="125" name="Évaluer l'implémentation" color="#8cb6ce" meeting="false" start="2021-03-22" duration="1" complete="0" thirdDate="2021-03-15" thirdDate-constraint="0" expand="true">
+                    <depend id="128" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="128" name="Programmer les corrections" color="#8cb6ce" meeting="false" start="2021-03-23" duration="2" complete="0" thirdDate="2021-03-15" thirdDate-constraint="0" expand="true">
+                    <depend id="49" type="2" difference="0" hardness="Strong"/>
+                    <depend id="55" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="48" name="Implémenter les tests unitaires" meeting="false" start="2021-03-25" duration="2" complete="0" expand="false">
+                <task id="49" name="Programmer les tests unitaires" color="#8cb6ce" meeting="false" start="2021-03-25" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+                    <depend id="53" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="53" name="Exécuter et analyser le résultat des tests unitaires" color="#8cb6ce" meeting="false" start="2021-03-26" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="54" name="Refactoriser le code" meeting="false" start="2021-03-25" duration="2" complete="0" expand="false">
+                <task id="55" name="Analyser le code à refactoriser" color="#8cb6ce" meeting="false" start="2021-03-25" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
+                    <depend id="57" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="57" name="Modifier le code" color="#8cb6ce" meeting="false" start="2021-03-26" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
+                    <depend id="62" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="58" name="Extraire l'architecture" color="#8cb6ce" meeting="false" start="2021-03-29" duration="3" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="false">
+                <task id="62" name="Analyser la structure globale" color="#8cb6ce" meeting="false" start="2021-03-29" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
+                    <depend id="64" type="2" difference="0" hardness="Strong"/>
+                    <depend id="66" type="2" difference="0" hardness="Strong"/>
+                    <depend id="70" type="2" difference="0" hardness="Strong"/>
+                    <depend id="72" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="64" name="Concevoir la vue de cas d'utilisation" color="#8cb6ce" meeting="false" start="2021-03-30" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+                <task id="66" name="Concevoir la vue logique" color="#8cb6ce" meeting="false" start="2021-03-30" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+                <task id="70" name="Concevoir la vue des processus" color="#8cb6ce" meeting="false" start="2021-03-30" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+                <task id="72" name="Concevoir la vue de déploiement" color="#8cb6ce" meeting="false" start="2021-03-30" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
+                    <depend id="73" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="73" name="Rédiger les contraintes architecturales" color="#8cb6ce" meeting="false" start="2021-03-31" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="129" name="Livrer le document d'architecture" color="#8cb6ce" meeting="true" start="2021-04-08" duration="0" complete="0" thirdDate="2021-03-30" thirdDate-constraint="0" expand="true"/>
+            <task id="140" name="Livrer le product backlog" color="#8cb6ce" meeting="true" start="2021-04-08" duration="0" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true"/>
+            <task id="74" name="Intégrer le code" color="#8cb6ce" meeting="false" start="2021-04-09" duration="3" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="false">
+                <task id="77" name="Intégrer par sous-systèmes" color="#8cb6ce" meeting="false" start="2021-04-09" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
+                <task id="81" name="Produire des sous-systèmes fonctionnels" color="#8cb6ce" meeting="false" start="2021-04-09" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="82" name="Ajuster le système" color="#8cb6ce" meeting="false" start="2021-04-13" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="100" type="2" difference="0" hardness="Strong"/>
+                    <depend id="106" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="86" name="Planifier les tests" meeting="false" start="2021-03-12" duration="2" complete="0" expand="false">
+                <task id="87" name="Évaluer les requis des tests" color="#8cb6ce" meeting="false" start="2021-03-12" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="89" type="2" difference="0" hardness="Strong"/>
+                    <depend id="90" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="89" name="Développer une stratégie de test" color="#8cb6ce" meeting="false" start="2021-03-15" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="90" name="Organiser le déroulement des tests" color="#8cb6ce" meeting="false" start="2021-03-15" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="92" type="2" difference="0" hardness="Strong"/>
+                    <depend id="94" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="91" name="Rédiger les cas de tests" color="#8cb6ce" meeting="false" start="2021-03-16" duration="4" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="false">
+                <task id="94" name="Concevoir les outils pour les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-16" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="96" name="Implémenter les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-17" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="93" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="93" name="Automatiser les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-19" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="92" name="Rédiger les critères d'évaluation" color="#8cb6ce" meeting="false" start="2021-03-16" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+            <task id="97" name="Exécuter les tests logiciels" meeting="false" start="2021-04-14" duration="4" complete="0" expand="false">
+                <task id="100" name="Débuter les procédures de test" color="#8cb6ce" meeting="false" start="2021-04-14" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="98" type="2" difference="0" hardness="Strong"/>
+                    <depend id="102" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="98" name="Lancer les tests logiciels" color="#8cb6ce" meeting="false" start="2021-04-16" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="102" name="Évaluer le résultat d'exécution des tests" color="#8cb6ce" meeting="false" start="2021-04-16" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+                    <depend id="103" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="103" name="Corriger les tests défaillants" color="#8cb6ce" meeting="false" start="2021-04-19" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="106" name="Évaluer le logiciel fonctionnel" color="#8cb6ce" meeting="false" start="2021-04-14" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+            <task id="121" name="Mettre à jour les exigences" color="#8cb6ce" meeting="false" start="2021-04-14" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="33" name="Implémenter les exigences" color="#000000" meeting="false" start="2021-03-16" duration="7" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
-            <task id="35" name="Analyser les exigences" color="#8cb6ce" meeting="false" start="2021-03-16" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
-            <task id="36" name="Réfléchir sur l'implémentation des exigences" color="#8cb6ce" meeting="false" start="2021-03-16" duration="2" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
-            <task id="46" name="Programmer les classes nécessaires" color="#8cb6ce" meeting="false" start="2021-03-17" duration="3" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
-                <depend id="125" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="47" name="Programmer les liens entre les classes" color="#8cb6ce" meeting="false" start="2021-03-17" duration="3" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
-                <depend id="125" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="125" name="Évaluer l'implémentation" color="#8cb6ce" meeting="false" start="2021-03-22" duration="1" complete="0" thirdDate="2021-03-15" thirdDate-constraint="0" expand="true">
-                <depend id="128" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="128" name="Programmer les corrections" color="#8cb6ce" meeting="false" start="2021-03-23" duration="2" complete="0" thirdDate="2021-03-15" thirdDate-constraint="0" expand="true">
-                <depend id="49" type="2" difference="0" hardness="Strong"/>
-                <depend id="55" type="2" difference="0" hardness="Strong"/>
-            </task>
-        </task>
-        <task id="48" name="Implémenter les tests unitaires" meeting="false" start="2021-03-25" duration="2" complete="0" expand="false">
-            <task id="49" name="Programmer les tests unitaires" color="#8cb6ce" meeting="false" start="2021-03-25" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
-                <depend id="53" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="53" name="Exécuter et analyser le résultat des tests unitaires" color="#8cb6ce" meeting="false" start="2021-03-26" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
-                <depend id="57" type="2" difference="0" hardness="Strong"/>
-            </task>
-        </task>
-        <task id="54" name="Refactoriser le code" meeting="false" start="2021-03-25" duration="4" complete="0" expand="false">
-            <task id="55" name="Analyser le code à refactoriser" color="#8cb6ce" meeting="false" start="2021-03-25" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
-                <depend id="57" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="57" name="Modifier le code" color="#8cb6ce" meeting="false" start="2021-03-29" duration="2" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
-                <depend id="62" type="2" difference="0" hardness="Strong"/>
-            </task>
-        </task>
-        <task id="58" name="Extraire l'architecture" color="#8cb6ce" meeting="false" start="2021-03-31" duration="3" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="false">
-            <task id="62" name="Analyser la structure globale" color="#8cb6ce" meeting="false" start="2021-03-31" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
-                <depend id="64" type="2" difference="0" hardness="Strong"/>
-                <depend id="66" type="2" difference="0" hardness="Strong"/>
-                <depend id="70" type="2" difference="0" hardness="Strong"/>
-                <depend id="72" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="64" name="Concevoir la vue de cas d'utilisation" color="#8cb6ce" meeting="false" start="2021-04-01" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
-            <task id="66" name="Concevoir la vue logique" color="#8cb6ce" meeting="false" start="2021-04-01" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
-            <task id="70" name="Concevoir la vue des processus" color="#8cb6ce" meeting="false" start="2021-04-01" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
-            <task id="72" name="Concevoir la vue de déploiement" color="#8cb6ce" meeting="false" start="2021-04-01" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
-                <depend id="73" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="73" name="Rédiger les contraintes architecturales" color="#8cb6ce" meeting="false" start="2021-04-02" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
-        </task>
-        <task id="129" name="Livrer le document d'architecture" color="#8cb6ce" meeting="true" start="2021-04-08" duration="0" complete="0" thirdDate="2021-03-30" thirdDate-constraint="0" expand="true"/>
-        <task id="140" name="Livrer le product backlog" color="#8cb6ce" meeting="true" start="2021-04-08" duration="0" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true"/>
-        <task id="74" name="Intégrer le code" color="#8cb6ce" meeting="false" start="2021-04-09" duration="3" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
-            <task id="77" name="Intégrer par sous-systèmes" color="#8cb6ce" meeting="false" start="2021-04-09" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true"/>
-            <task id="81" name="Produire des sous-systèmes fonctionnels" color="#8cb6ce" meeting="false" start="2021-04-09" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="82" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="82" name="Ajuster le système" color="#8cb6ce" meeting="false" start="2021-04-13" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="100" type="2" difference="0" hardness="Strong"/>
-                <depend id="106" type="2" difference="0" hardness="Strong"/>
-            </task>
-        </task>
-        <task id="86" name="Planifier les tests" meeting="false" start="2021-03-15" duration="2" complete="0" expand="true">
-            <task id="87" name="Évaluer les requis des tests" color="#8cb6ce" meeting="false" start="2021-03-15" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="89" type="2" difference="0" hardness="Strong"/>
-                <depend id="90" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="89" name="Développer une stratégie de test" color="#8cb6ce" meeting="false" start="2021-03-16" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
-            <task id="90" name="Organiser le déroulement des tests" color="#8cb6ce" meeting="false" start="2021-03-16" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="92" type="2" difference="0" hardness="Strong"/>
-                <depend id="94" type="2" difference="0" hardness="Strong"/>
-            </task>
-        </task>
-        <task id="91" name="Rédiger les cas de tests" color="#8cb6ce" meeting="false" start="2021-03-17" duration="4" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-            <task id="94" name="Concevoir les outils pour les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-17" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="96" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="96" name="Implémenter les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-18" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="93" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="93" name="Automatiser les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-22" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
-        </task>
-        <task id="92" name="Rédiger les critères d'évaluation" color="#8cb6ce" meeting="false" start="2021-03-17" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
-        <task id="97" name="Exécuter les tests logiciels" meeting="false" start="2021-04-14" duration="4" complete="0" expand="true">
-            <task id="100" name="Débuter les procédures de test" color="#8cb6ce" meeting="false" start="2021-04-14" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="98" type="2" difference="0" hardness="Strong"/>
-                <depend id="102" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="98" name="Lancer les tests logiciels" color="#8cb6ce" meeting="false" start="2021-04-16" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
-            <task id="102" name="Évaluer le résultat d'exécution des tests" color="#8cb6ce" meeting="false" start="2021-04-16" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
-                <depend id="103" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="103" name="Corriger les tests défaillants" color="#8cb6ce" meeting="false" start="2021-04-19" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
-        </task>
-        <task id="106" name="Évaluer le logiciel fonctionnel" color="#8cb6ce" meeting="false" start="2021-04-14" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
-        <task id="121" name="Mettre à jour les exigences" meeting="false" start="2021-02-15" duration="1" complete="0" expand="true"/>
+        <task id="143" name="Sprint 2" meeting="false" start="2021-03-10" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
