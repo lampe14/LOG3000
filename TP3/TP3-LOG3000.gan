@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-03-07" view-index="1" gantt-divider-location="570" resource-divider-location="355" version="3.0.3002" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-03-28" view-index="0" gantt-divider-location="570" resource-divider-location="355" version="3.0.3002" locale="en_CA">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Name" width="343" order="0"/>
@@ -6,8 +6,8 @@
         <field id="tpd5" name="End date" width="120" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="303" order="0"/>
-        <field id="1" name="Default role" width="48" order="1"/>
+        <field id="0" name="Name" width="290" order="0"/>
+        <field id="1" name="Default role" width="46" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -53,14 +53,14 @@
             <depend id="123" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="141" name="Sprint 1" meeting="false" start="2021-03-10" duration="13" complete="0" expand="true">
-            <task id="32" name="Prioriser les exigences pour le sprint" meeting="false" start="2021-03-10" duration="1" complete="0" expand="true">
+            <task id="32" name="Prioriser les exigences pour le sprint" meeting="false" start="2021-03-10" duration="1" complete="0" expand="false">
                 <task id="123" name="Analyser le niveau d'importance des exigences" meeting="false" start="2021-03-10" duration="1" complete="0" expand="true"/>
                 <task id="37" name="Créer les tâches associées aux exigences" color="#8cb6ce" meeting="false" start="2021-03-10" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
                     <depend id="35" type="2" difference="0" hardness="Strong"/>
                     <depend id="36" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="86" name="Planifier les tests" meeting="false" start="2021-03-10" duration="2" complete="0" expand="true">
+            <task id="86" name="Planifier les tests" meeting="false" start="2021-03-10" duration="2" complete="0" expand="false">
                 <task id="87" name="Évaluer les requis des tests" color="#8cb6ce" meeting="false" start="2021-03-10" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
                     <depend id="89" type="2" difference="0" hardness="Strong"/>
                     <depend id="90" type="2" difference="0" hardness="Strong"/>
@@ -71,7 +71,7 @@
                     <depend id="94" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="33" name="Implémenter les exigences" color="#000000" meeting="false" start="2021-03-11" duration="6" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
+            <task id="33" name="Implémenter les exigences" color="#000000" meeting="false" start="2021-03-11" duration="6" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="false">
                 <task id="35" name="Analyser les exigences" color="#8cb6ce" meeting="false" start="2021-03-11" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
                     <depend id="46" type="2" difference="0" hardness="Strong"/>
                     <depend id="47" type="2" difference="0" hardness="Strong"/>
@@ -92,7 +92,7 @@
                 </task>
                 <task id="128" name="Programmer les corrections" color="#8cb6ce" meeting="false" start="2021-03-17" duration="2" complete="0" thirdDate="2021-03-15" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="91" name="Rédiger les cas de tests" color="#8cb6ce" meeting="false" start="2021-03-12" duration="4" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
+            <task id="91" name="Rédiger les cas de tests" color="#8cb6ce" meeting="false" start="2021-03-12" duration="4" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="false">
                 <task id="94" name="Concevoir les outils pour les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-12" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
                     <depend id="96" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -102,14 +102,14 @@
                 <task id="93" name="Automatiser les tests nécessaires" color="#8cb6ce" meeting="false" start="2021-03-17" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="92" name="Rédiger les critères d'évaluation" color="#8cb6ce" meeting="false" start="2021-03-12" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
-            <task id="48" name="Implémenter les tests unitaires" meeting="false" start="2021-03-17" duration="2" complete="0" expand="true">
+            <task id="48" name="Implémenter les tests unitaires" meeting="false" start="2021-03-17" duration="2" complete="0" expand="false">
                 <task id="49" name="Programmer les tests unitaires" color="#8cb6ce" meeting="false" start="2021-03-17" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
                     <depend id="53" type="2" difference="0" hardness="Strong"/>
                     <depend id="55" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="53" name="Exécuter et analyser le résultat des tests unitaires" color="#8cb6ce" meeting="false" start="2021-03-18" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="54" name="Refactoriser le code" meeting="false" start="2021-03-18" duration="2" complete="0" expand="true">
+            <task id="54" name="Refactoriser le code" meeting="false" start="2021-03-18" duration="2" complete="0" expand="false">
                 <task id="55" name="Analyser le code à refactoriser" color="#8cb6ce" meeting="false" start="2021-03-18" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
                     <depend id="57" type="2" difference="0" hardness="Strong"/>
                     <depend id="62" type="2" difference="0" hardness="Strong"/>
@@ -119,7 +119,7 @@
                     <depend id="81" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="58" name="Extraire l'architecture" color="#8cb6ce" meeting="false" start="2021-03-19" duration="3" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
+            <task id="58" name="Extraire l'architecture" color="#8cb6ce" meeting="false" start="2021-03-19" duration="3" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="false">
                 <task id="62" name="Analyser la structure globale" color="#8cb6ce" meeting="false" start="2021-03-19" duration="1" complete="0" thirdDate="2021-02-17" thirdDate-constraint="0" expand="true">
                     <depend id="64" type="2" difference="0" hardness="Strong"/>
                     <depend id="66" type="2" difference="0" hardness="Strong"/>
@@ -145,7 +145,7 @@
                     <depend id="121" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="97" name="Exécuter les tests logiciels" meeting="false" start="2021-03-25" duration="2" complete="0" expand="true">
+            <task id="97" name="Exécuter les tests logiciels" meeting="false" start="2021-03-25" duration="2" complete="0" expand="false">
                 <task id="98" name="Lancer les tests logiciels" color="#8cb6ce" meeting="false" start="2021-03-25" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
                 <task id="102" name="Évaluer le résultat d'exécution des tests" color="#8cb6ce" meeting="false" start="2021-03-25" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
                     <depend id="103" type="2" difference="0" hardness="Strong"/>
@@ -160,7 +160,7 @@
             </task>
         </task>
         <task id="143" name="Sprint 2" meeting="false" start="2021-03-26" duration="19" complete="0" expand="true">
-            <task id="276" name="Prioriser les exigences pour le sprint" meeting="false" start="2021-03-26" duration="1" complete="0" expand="true">
+            <task id="276" name="Prioriser les exigences pour le sprint" meeting="false" start="2021-03-26" duration="1" complete="0" expand="false">
                 <task id="278" name="Analyser le niveau d'importance des exigences" meeting="false" start="2021-03-26" duration="1" complete="0" expand="true"/>
                 <task id="280" name="Créer les tâches associées aux exigences" color="#8cb6ce" meeting="false" start="2021-03-26" duration="1" complete="0" thirdDate="2021-03-26" thirdDate-constraint="0" expand="true">
                     <depend id="284" type="2" difference="0" hardness="Strong"/>
@@ -178,7 +178,7 @@
                     <depend id="323" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="283" name="Implémenter les exigences" meeting="false" start="2021-03-29" duration="6" complete="0" expand="true">
+            <task id="283" name="Implémenter les exigences" meeting="false" start="2021-03-29" duration="6" complete="0" expand="false">
                 <task id="284" name="Analyser les exigences" meeting="false" start="2021-03-29" duration="1" complete="0" expand="true"/>
                 <task id="286" name="Réfléchir sur l'implémentation des exigences" meeting="false" start="2021-03-29" duration="1" complete="0" expand="true">
                     <depend id="287" type="2" difference="0" hardness="Strong"/>
@@ -211,7 +211,7 @@
                 </task>
                 <task id="307" name="Exécuter et analyser le résultat des tests unitaires" meeting="false" start="2021-04-05" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="297" name="Refactoriser le code" meeting="false" start="2021-04-02" duration="2" complete="0" expand="true">
+            <task id="297" name="Refactoriser le code" meeting="false" start="2021-04-02" duration="2" complete="0" expand="false">
                 <task id="308" name="Analyser le code à refactoriser" meeting="false" start="2021-04-02" duration="1" complete="0" expand="true">
                     <depend id="309" type="2" difference="0" hardness="Strong"/>
                     <depend id="310" type="2" difference="0" hardness="Strong"/>
@@ -221,7 +221,7 @@
                     <depend id="318" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="299" name="Extraire l'architecture" meeting="false" start="2021-04-05" duration="2" complete="0" expand="true">
+            <task id="299" name="Extraire l'architecture" meeting="false" start="2021-04-05" duration="3" complete="0" expand="false">
                 <task id="310" name="Analyser la structure globale" color="#8cb6ce" meeting="false" start="2021-04-05" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
                     <depend id="312" type="2" difference="0" hardness="Strong"/>
                     <depend id="313" type="2" difference="0" hardness="Strong"/>
@@ -231,31 +231,35 @@
                 </task>
                 <task id="312" name="Concevoir la vue de cas d'utilisation" meeting="false" start="2021-04-06" duration="1" complete="0" expand="true"/>
                 <task id="313" name="Concevoir la vue logique" meeting="false" start="2021-04-06" duration="1" complete="0" expand="true"/>
-                <task id="314" name="Concevoir la vue des processus" meeting="false" start="2021-04-06" duration="1" complete="0" expand="true"/>
+                <task id="314" name="Concevoir la vue des processus" color="#8cb6ce" meeting="false" start="2021-04-06" duration="2" complete="0" thirdDate="2021-04-06" thirdDate-constraint="0" expand="true"/>
                 <task id="315" name="Concevoir la vue de déploiement" meeting="false" start="2021-04-06" duration="1" complete="0" expand="true"/>
-                <task id="316" name="Rédiger les contraintes architecturales" meeting="false" start="2021-04-06" duration="1" complete="0" expand="true"/>
+                <task id="316" name="Rédiger les contraintes architecturales" color="#8cb6ce" meeting="false" start="2021-04-06" duration="2" complete="0" thirdDate="2021-04-06" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="398" name="Livrer le document d'architecture" color="#8cb6ce" meeting="true" start="2021-04-08" duration="0" complete="0" thirdDate="2021-03-30" thirdDate-constraint="0" expand="true"/>
             <task id="399" name="Livrer le product backlog" color="#8cb6ce" meeting="true" start="2021-04-08" duration="0" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true"/>
             <task id="300" name="Intégrer le code" meeting="false" start="2021-04-06" duration="3" complete="0" expand="true">
-                <task id="317" name="Intégrer par sous-systèmes" meeting="false" start="2021-04-06" duration="1" complete="0" expand="true"/>
+                <task id="317" name="Intégrer par sous-systèmes" color="#8cb6ce" meeting="false" start="2021-04-06" duration="2" complete="0" thirdDate="2021-04-06" thirdDate-constraint="0" expand="true"/>
                 <task id="318" name="Produire des sous-systèmes fonctionnels" color="#8cb6ce" meeting="false" start="2021-04-06" duration="2" complete="0" thirdDate="2021-04-16" thirdDate-constraint="0" expand="true">
                     <depend id="319" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="319" name="Ajuster le système" meeting="false" start="2021-04-08" duration="1" complete="0" expand="true">
                     <depend id="305" type="2" difference="0" hardness="Strong"/>
                     <depend id="326" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="304" name="Exécuter les tests logiciels" meeting="false" start="2021-04-09" duration="4" complete="0" expand="true">
+                <task id="326" name="Lancer les tests logiciels" color="#8cb6ce" meeting="false" start="2021-04-09" duration="2" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true">
                     <depend id="327" type="2" difference="0" hardness="Strong"/>
                 </task>
-            </task>
-            <task id="304" name="Exécuter les tests logiciels" meeting="false" start="2021-04-09" duration="2" complete="0" expand="true">
-                <task id="326" name="Lancer les tests logiciels" meeting="false" start="2021-04-09" duration="1" complete="0" expand="true"/>
-                <task id="327" name="Évaluer le résultat d'exécution des tests" meeting="false" start="2021-04-09" duration="1" complete="0" expand="true">
+                <task id="327" name="Évaluer le résultat d'exécution des tests" color="#8cb6ce" meeting="false" start="2021-04-13" duration="1" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true">
                     <depend id="328" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="328" name="Corriger les tests défaillants" meeting="false" start="2021-04-12" duration="1" complete="0" expand="true"/>
+                <task id="328" name="Corriger les tests défaillants" meeting="false" start="2021-04-14" duration="1" complete="0" expand="true">
+                    <depend id="489" type="2" difference="0" hardness="Strong"/>
+                </task>
             </task>
             <task id="305" name="Évaluer le logiciel fonctionnel" meeting="false" start="2021-04-09" duration="1" complete="0" expand="true"/>
+            <task id="489" name="Corriger les derniers bogues" color="#8cb6ce" meeting="false" start="2021-04-15" duration="2" complete="0" thirdDate="2021-04-05" thirdDate-constraint="0" expand="true"/>
             <task id="396" name="Livrer le build" color="#8cb6ce" meeting="true" start="2021-04-22" duration="0" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
             <task id="397" name="Livrer le plan de test" color="#8cb6ce" meeting="true" start="2021-04-22" duration="0" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
         </task>
@@ -322,8 +326,8 @@
         <allocation task-id="284" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="303" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="289" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
-        <allocation task-id="308" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
-        <allocation task-id="290" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="308" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="50.0"/>
+        <allocation task-id="290" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="50.0"/>
         <allocation task-id="307" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="310" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
         <allocation task-id="313" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
@@ -454,17 +458,17 @@
         <allocation task-id="320" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="50.0"/>
         <allocation task-id="322" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
         <allocation task-id="321" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="325" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="324" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="327" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="308" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="328" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="315" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="326" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
         <allocation task-id="323" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="324" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="325" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="308" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
         <allocation task-id="310" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
-        <allocation task-id="319" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="315" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
         <allocation task-id="314" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="319" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="326" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="327" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="328" resource-id="5" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
