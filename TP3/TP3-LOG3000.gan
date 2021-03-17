@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-02-21" view-index="1" gantt-divider-location="586" resource-divider-location="355" version="3.0.3002" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="TP3-LOG3000" company="" webLink="http://" view-date="2021-03-07" view-index="0" gantt-divider-location="586" resource-divider-location="355" version="3.0.3002" locale="en_CA">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Name" width="348" order="0"/>
@@ -6,8 +6,8 @@
         <field id="tpd5" name="End date" width="125" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="267" order="0"/>
-        <field id="1" name="Default role" width="69" order="1"/>
+        <field id="0" name="Name" width="274" order="0"/>
+        <field id="1" name="Default role" width="77" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -33,7 +33,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Échanger des idées" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="false">
+        <task id="0" name="Échanger des idées" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-03-04" thirdDate-constraint="0" expand="true">
             <task id="7" name="Discuter des exigences" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true"/>
             <task id="10" name="Rassembler les informations pertinentes" meeting="false" start="2021-03-04" duration="1" complete="0" expand="true"/>
             <task id="8" name="Établir une liste d'exigences" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-02-22" thirdDate-constraint="0" expand="true">
@@ -149,7 +149,7 @@
                 </task>
                 <task id="103" name="Corriger les tests défaillants" color="#8cb6ce" meeting="false" start="2021-03-24" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="106" name="Évaluer le logiciel fonctionnel" color="#8cb6ce" meeting="false" start="2021-03-23" duration="2" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
+            <task id="106" name="Évaluer le logiciel fonctionnel" color="#8cb6ce" meeting="false" start="2021-03-23" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true"/>
             <task id="121" name="Mettre à jour les exigences" color="#8cb6ce" meeting="false" start="2021-03-23" duration="1" complete="0" thirdDate="2021-02-15" thirdDate-constraint="0" expand="true">
                 <depend id="278" type="2" difference="0" hardness="Strong"/>
                 <depend id="280" type="2" difference="0" hardness="Strong"/>
